@@ -7,16 +7,16 @@ export default ({ data }) => {
   return (
     <Layout>
       <SiteMetadata
-        title="Travel destinations"
-        description="Check the most popular travel destinations in Europe."
+        title="Frikshop"
+        description="Productos anunciados en TikTok, instagram | Productos WoW."
         image={data.hero.url}
       />
 
       <Hero
         image={data.hero}
         tag="#travel"
-        title="Travel destinations"
-        description="Check the most popular travel locations in Europe."
+        title="FrikShop"
+        description="Productos anunciados en TikTok, instagram | Productos WoW."
       />
 
       <Cards nodes={data.items.nodes} />
