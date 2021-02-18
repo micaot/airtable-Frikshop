@@ -14,7 +14,7 @@ export default ({ data }) => {
 
       <Hero
         image={data.hero}
-        tag="#travel"
+        tag="#ShoppingFrikShop.com"
         title="FrikShop"
         description="Productos anunciados en TikTok, instagram | Productos WoW."
       />
